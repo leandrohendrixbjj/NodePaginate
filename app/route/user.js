@@ -9,6 +9,7 @@ const users = [
    {id:6,name:'Nadia'},
 ];
 
+//Simple
 route.get('/', (req,res) => {
   
   const page = parseInt(req.query.page);
